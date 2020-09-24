@@ -1,0 +1,5 @@
+<%= @student.name%>
+<%= @student.major%>
+<%= @student.age%>
+
+ <%= button_to "delete", student_path(:id => @student.id), :method => :delete %>
